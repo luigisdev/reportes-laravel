@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                {{ isset($title) ? $title . ' Con Laravel': 'Laravel Desde el Home' }}
                 </div>
 
                 <div class="links">
