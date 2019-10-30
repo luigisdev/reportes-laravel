@@ -1,0 +1,2 @@
+V12:
+php artisan make:controller ExpenseReportController --resource
